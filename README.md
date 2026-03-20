@@ -1,4 +1,4 @@
-# 🧥 Sistema de Inventario y Ventas de Chamarras
+#  Sistema de Inventario y Ventas de Chamarras
 
 Aplicación web para la gestión de inventario, ventas y pagos (abonos) enfocada en pequeños negocios de retail.
 
@@ -6,34 +6,34 @@ Este sistema permite controlar productos, registrar ventas a crédito y dar segu
 
 ---
 
-## 🚀 Funcionalidades principales
+##  Funcionalidades principales
 
-- 📦 Gestión de inventario de chamarras
+-  Gestión de inventario de chamarras
   - Alta de productos
   - Control de estado (disponible / vendida)
 
-- 💸 Registro de ventas
+-  Registro de ventas
   - Asociación de múltiples productos a una venta
   - Aplicación de descuentos
   - Cálculo automático de totales
 
-- 👤 Gestión de clientes
+-  Gestión de clientes
   - Registro de clientes
   - Relación con ventas y pagos
 
-- 💵 Sistema de abonos (pagos)
+-  Sistema de abonos (pagos)
   - Registro de pagos por cliente
   - Aplicación automática a ventas pendientes
   - Actualización de estado (pendiente / pagada)
 
-- 📊 Seguimiento financiero
+-  Seguimiento financiero
   - Historial de ventas por cliente
   - Historial de pagos
   - Cálculo de saldo pendiente
 
 ---
 
-## 🧱 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - **Backend:** FastAPI
 - **Base de datos:** SQLite + SQLAlchemy
@@ -42,7 +42,7 @@ Este sistema permite controlar productos, registrar ventas a crédito y dar segu
 
 ---
 
-## 🧠 Arquitectura
+##  Arquitectura
 
 El proyecto sigue una estructura modular:
 
@@ -65,7 +65,7 @@ Separación clara entre:
 
 ---
 
-## ⚙️ Instalación y ejecución
+##  Instalación y ejecución
 
 1. Clonar el repositorio:
 
@@ -101,7 +101,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## 🔄 Lógica de negocio destacada
+##  Lógica de negocio destacada
 
 * Aplicación automática de pagos a ventas pendientes en orden cronológico
 * Cálculo dinámico de saldo por cliente
@@ -109,7 +109,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## 🎯 Objetivo del proyecto
+##  Objetivo del proyecto
 
 Este sistema fue desarrollado para reemplazar procesos manuales (Excel + registros físicos) por una solución digital estructurada, mejorando:
 
@@ -119,7 +119,7 @@ Este sistema fue desarrollado para reemplazar procesos manuales (Excel + registr
 
 ---
 
-## 📌 Posibles mejoras futuras
+##  Posibles mejoras futuras
 
 * Dashboard con métricas clave
 * Autenticación de usuarios
