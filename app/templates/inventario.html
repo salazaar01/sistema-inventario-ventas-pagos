@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="contenedor">
+    <h1>Inventario</h1>
+
+    <section class="seccion">
+        <h3>Agregar nueva chamarra</h3>
+        <form id="form-chamarra">
+            <input type="text" id="descripcion" placeholder="Descripción" required>
+            <input type="text" id="marca" placeholder="Marca" required>
+            <input type="text" id="color" placeholder="Color" required>
+            <input type="text" id="talla" placeholder="Talla" required>
+            <input type="number" id="precio_venta" placeholder="Precio de venta" step="0.01" required>
+            <button type="submit">Agregar chamarra</button>
+        </form>
+    </section>
+
+    <section class="seccion">
+        <h3>Lista de chamarras</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descripción</th>
+                    <th>Marca</th>
+                    <th>Color</th>
+                    <th>Talla</th>
+                    <th>Precio</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-chamarras">
+            </tbody>
+        </table>
+    </section>
+</div>
+
+<script src="/static/inventario.js"></script>
+{% endblock %}
